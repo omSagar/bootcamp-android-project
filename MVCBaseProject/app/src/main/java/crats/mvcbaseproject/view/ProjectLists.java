@@ -18,7 +18,7 @@ import crats.mvcbaseproject.view.PersonNamesListScreen;
 public class ProjectLists extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
     ListView projectlistView;
-    String [] projectList = {"ProDigi"};
+    String [] projectList = {"ProDigi","Sagar"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
