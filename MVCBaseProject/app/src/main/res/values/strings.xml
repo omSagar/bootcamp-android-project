@@ -1,7 +1,5 @@
+<!--<string name="app_name">MVC Base Project</string>-->
 <resources>
-    <!--<string name="app_name">MVC Base Project</string>-->
-    <string name="hello_this_is_another_class">Hello this is another class</string>
-
     <string name="app_name">Firebase Auth</string>
     <string name="action_sign_in_short">Register</string>
     <string name="email">Email</string>
@@ -32,4 +30,5 @@
     <string name="lbl_forgot_password">Forgot password?</string>
     <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
 </resources>
+
 

@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import crats.mvcbaseproject.LoginActivity;
 import crats.mvcbaseproject.R;
 import crats.mvcbaseproject.view.PersonNamesListScreen;
 
@@ -52,6 +53,11 @@ public class ProjectLists extends AppCompatActivity implements AdapterView.OnIte
             case 0:
                 Intent intent = new Intent(this, PersonNamesListScreen.class);
                 startActivity(intent);
+                break;
+
+            case 1:
+                Intent my = new Intent(this, LoginActivity.class);
+                startActivity(my);
                 break;
             default:
                 setContentView(R.layout.project_lists);
