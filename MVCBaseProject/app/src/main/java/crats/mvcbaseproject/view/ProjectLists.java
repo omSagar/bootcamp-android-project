@@ -26,8 +26,6 @@ public class ProjectLists extends AppCompatActivity implements AdapterView.OnIte
         setContentView(R.layout.project_lists);
 
        this.setupListView();
-
-
     }
 
 
