@@ -5,6 +5,7 @@ package crats.mvcbaseproject.model;
  */
 
 public class Order {
+
     private String ProductId;
     private String ProductName;
     private String Quantity;
