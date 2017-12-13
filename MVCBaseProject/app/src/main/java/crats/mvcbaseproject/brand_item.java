@@ -350,6 +350,9 @@ public class brand_item extends AppCompatActivity {
                     @Override
                     public void onClick(View view, int position, boolean IsLongClick) {
                         //Later
+                        Intent laptopDetail = new Intent(brand_item.this,laptop_detail.class);
+                        laptopDetail.putExtra("laptopID",adapter.getRef(position).getKey());
+                        startActivity(laptopDetail);
                     }
                 });
             }

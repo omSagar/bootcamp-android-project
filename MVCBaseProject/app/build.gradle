@@ -42,13 +42,11 @@ dependencies {
 
     compile 'com.android.support:appcompat-v7:24.2.1' // appcompat library
     compile 'com.android.support:design:24.2.1'
+
+    //For Cart Button(Number Button)
+    compile 'com.cepheuen.elegant-number-button:lib:1.0.2'
+    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+
     testCompile 'junit:junit:4.12'
 }
-
-
-
-
-
-
-
 apply plugin: 'com.google.gms.google-services'

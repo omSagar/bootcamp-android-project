@@ -31,7 +31,8 @@
         <activity android:name=".ResetPasswordActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".brand_item" />
-        <activity android:name=".brand_home"></activity>
+        <activity android:name=".brand_home" />
+        <activity android:name=".laptop_detail"></activity>
     </application>
 
 </manifest>
