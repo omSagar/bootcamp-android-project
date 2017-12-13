@@ -1,6 +1,6 @@
 <!--<string name="app_name">MVC Base Project</string>-->
 <resources>
-    <string name="app_name">Firebase Auth</string>
+    <string name="app_name">Computer</string>
     <string name="action_sign_in_short">Register</string>
     <string name="email">Email</string>
     <string name="minimum_password">Password too short, enter minimum 6 characters!</string>

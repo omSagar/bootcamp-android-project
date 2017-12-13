@@ -26,10 +26,12 @@
             android:name=".view.PersonNamesListScreen"
             android:label="Example"
             android:parentActivityName=".view.ProjectLists" />
-        <activity android:name=".SignupActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
         <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".brand_item" />
+        <activity android:name=".brand_home"></activity>
     </application>
 
 </manifest>
